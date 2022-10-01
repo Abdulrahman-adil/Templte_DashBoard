@@ -1,0 +1,207 @@
+.p-20 {
+  padding: 20px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.pt-top {
+  padding-top: 20px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.rad-6 {
+  border-radius: 6px;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.align-cent {
+  text-align: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.heading-st {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.h4-st {
+  font-size: 15px;
+}
+
+.span-st-c {
+  color: #8e8888;
+}
+
+.span-st {
+  font-size: 12px;
+  margin-top: -5px;
+  display: block;
+}
+
+.flow-hiding {
+  overflow: hidden;
+}
+
+.line-h {
+  line-height: 0;
+}
+
+.d-block {
+  display: block;
+}
+
+.w-img {
+  width: 100px;
+}
+
+.block-mobile {
+  display: block !important;
+}
+
+.c-blue {
+  color: var(--bs-blue);
+}
+
+.c-orange {
+  color: var(--bs-orange);
+}
+
+.c-green {
+  color: var(--bs-green);
+}
+
+.c-red {
+  color: var(--bs-red);
+}
+
+.c-black {
+  color: var(--bs-dark);
+}
+
+.c-whit {
+  color: var(--bs-white);
+}
+
+.bg-blue {
+  background-color: var(--bs-blue);
+}
+
+.bg-orange {
+  background-color: var(--bs-orange);
+}
+
+.bg-green {
+  background-color: var(--bs-green);
+}
+
+.bg-red {
+  background-color: var(--bs-red);
+}
+
+.bg-eee {
+  background-color: #eee;
+}
+
+.bg-whit {
+  background-color: var(--bs-white);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.active {
+  background-color: #efecec;
+}
+
+@media (max-width: 767px) {
+  .active {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .hide-tablet {
+    display: none !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .button-mobile {
+    margin: 1px auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .txt-c-mobile {
+    text-align: center;
+  }
+}
+
+.between-flex {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-control {
+  background-color: #eeee !important;
+  -webkit-transition: all 0.3s !important;
+  transition: all 0.3s !important;
+}
+/*# sourceMappingURL=framework.css.map */

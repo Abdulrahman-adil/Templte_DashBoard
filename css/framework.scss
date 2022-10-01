@@ -1,0 +1,102 @@
+.p-20{padding: 20px;}
+.p-10{ padding: 10px;}
+.p-15{ padding: 15px;}
+.pt-top{padding-top: 20px;}
+.m-20{margin: 20px;}
+.mb-20{margin-bottom: 20px;}
+.mt-15{margin-top: 15px;}
+.mt-20{margin-top: 20px;}
+.mb-15{margin-bottom: 15px;}
+
+.rad-6{ border-radius: 6px;}
+
+.p-relative{ position: relative;}
+
+.align-cent{text-align: center;}
+.w-full{width: 100%;}
+.heading-st{font-size: 18px;font-weight: bold; }
+.h4-st{font-size: 15px;    ;}
+.span-st-c{color: #8e8888;}
+.span-st{font-size: 12px; margin-top: -5px;display: block;}
+.flow-hiding{overflow: hidden;}
+.line-h{line-height: 0;}
+.d-block{display: block;}
+.w-img{width: 100px;}
+.block-mobile{
+display: block !important;
+}
+
+// colors
+// text
+.c-blue{color: var(--bs-blue)}
+.c-orange{color:var(--bs-orange) ;}
+.c-green{color:var(--bs-green) ;}
+.c-red{color:var(--bs-red) ;}
+.c-black{color: var(--bs-dark);}
+.c-whit{color: var(--bs-white);}
+//text
+//background
+.bg-blue{background-color: var(--bs-blue);}
+.bg-orange{background-color: var(--bs-orange);}
+.bg-green{ background-color: var(--bs-green);}
+.bg-red{ background-color: var(--bs-red);}
+.bg-eee{background-color: #eee;}
+.bg-whit{background-color: var(--bs-white);}
+//background
+
+// colors
+
+// Start global
+ul{list-style: none;}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+// End global
+// Start ==> media
+.active{
+    background-color:#efecec;
+    @media (max-width: 767px){
+        display: none;
+    }
+}
+// meadia hide mobil
+@media (max-width: 576px) {
+    .hide-mobile{
+        display: none !important;
+    }
+}
+@media (max-width: 768px) {
+    .hide-tablet{
+        display: none !important;
+    }
+}
+.button-mobile{
+    @media (max-width: 576px){
+        margin: 1px auto;
+        width: 100%;
+    }
+}
+.txt-c-mobile{
+    @media (max-width: 576px){
+   text-align: center;
+   }
+   }
+// End ==> media
+// start componantes
+.between-flex{
+    align-items: center;
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+    justify-content: center;
+}
+// End componantes
+
+// Start edit on botstrab
+.form-control {
+    background-color: #eeee !important;
+    transition: all 0.3s !important;
+}
+//End edit on botstrab

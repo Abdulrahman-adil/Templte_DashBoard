@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dash Board</title>
+    <link rel="stylesheet" href="/css/framework.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="dashBord d-flex">
+      <div class="side-bar">
+        <div class="name">
+          <h2>Abdo</h2>
+        </div>
+        <ul class="list d-flex">
+          <li class="active rad-6">
+            <a class="" href="index.html">
+              <i class="fa-solid fa-square-poll-vertical fa-fw"></i>
+              <span>DashBoard</span>
+            </a>
+          </li>
+          <li class="rad-6">
+            <a href="settings.html">
+              <i class="fa-solid fa-gear"></i>
+              <span>Setting</span>
+            </a>
+          </li>
+          <li class="rad-6">
+            <a href="profile.html">
+              <i class="fa-regular fa-user"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li class="rad-6">
+            <a href="courses.html">
+              <i class="fa-solid fa-user-graduate"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li class="rad-6">
+            <a href="friends.html">
+              <i class="fa-solid fa-user-group"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li class="rad-6">
+            <a href="file.html">
+              <i class="fa-regular fa-file-lines"></i>
+              <span>File</span>
+            </a>
+          </li>
+          <li class="rad-6">
+            <a href="plans.html">
+              <i class="fa-brands fa-unsplash"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+          <li class="rad-6">
+            <a href="Projects.html">
+              <i class="fa-solid fa-hands-holding-child"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-content w-full flow-hiding">
+        <div class="nav-b p-15 bg-whit between-flex d-flex">
+          <!-- start-Head -->
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              class="rad-6 input"
+              type="text"
+              placeholder="Type A KeyWord"
+            />
+          </div>
+          <div class="icons d-flex">
+            <i class="fa-regular fa-bell"></i>
+            <img class="avatar" src="./imgs/avatar.png" alt="" />
+          </div>
+        </div>
+        <div class="cont p-15">
+          <h3 class="p-relative">DashBoard</h3>
+          <div class="boxes">
+            <!-- start Welcome -->
+            <div class="rad-6 bg-whit">
+              <div class="user d-flex p-15 bg-eee">
+                <div class="intro">
+                  <h4 class="heading-st">Welcome</h4>
+                  <span class="span-st span-st-c">Abdo</span>
+                  <div class="avatar">
+                    <img src="./imgs/avatar.png" alt="" />
+                  </div>
+                </div>
+                <div class="full-img">
+                  <img src="./imgs/imgs/welcome.png" alt="" />
+                </div>
+              </div>
+              <div class="info d-flex p-15">
+                <div class="n-m align-cent">
+                  <h4 class="h4-st">Abdo Adel</h4>
+                  <span class="span-st span-st-c">Developer</span>
+                </div>
+
+                <div class="project align-cent">
+                  <h4 class="h4-st">80</h4>
+                  <span class="span-st span-st-c">Project</span>
+                </div>
+                <div class="earned align-cent">
+                  <h4 class="h4-st">Earned</h4>
+                  <span class="span-st span-st-c">$9000</span>
+                </div>
+              </div>
+              <div class="p-15">
+                <button type="submit" class="btn btn-primary button-mobile">
+                  profile
+                </button>
+              </div>
+            </div>
+            <!-- End Welcome -->
+            <!-- statr Quick Draft -->
+            <div class="rad-6 bg-whit">
+              <div class="q-draft p-15">
+                <div class="int text-sm-start txt-c-mobile">
+                  <h4 class="heading-st">Quick Draft</h4>
+                  <span class="span-st span-st-c"
+                    >Write A Draft For Your Ideas</span
+                  >
+                </div>
+                <form>
+                  <div class="row mb-3">
+                    <div class="">
+                      <input
+                        placeholder="Title"
+                        type="email"
+                        class="form-control"
+                        id="inputEmail3"
+                      />
+                    </div>
+                  </div>
+                  <div class="">
+                    <textarea
+                      class="form-control"
+                      placeholder="Your Thought"
+                      style="height: 100px"
+                    ></textarea>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary button-mobile">
+                    Sign in
+                  </button>
+                </form>
+              </div>
+            </div>
+            <!-- End Quick Draft -->
+            <!-- start Yearly Target -->
+            <div class="rad-6 bg-whit">
+              <div class="y-target p-15">
+                <div class="int txt-c-mobile">
+                  <h4 class="heading-st">Yearly Target</h4>
+                  <span class="span-st span-st-c">Target OF The Year</span>
+                </div>
+                <!-- <div class="main-progress"> -->
+                <div class="target-prog blue d-flex gap-3 align-center">
+                  <div class="icon d-flex align-center mt-15 hide-mobile">
+                    <i class="fa-solid fa-dollar-sign fa-lg c-blue "></i>
+                  </div>
+                  <div class="details mt-15">
+                    <span class="span-st span-st-c">Mony</span>
+                    <span class="d-block fw-bold">$20.000</span>
+                    <div class="progress p-relative">
+                      <span class="bg-blue blue" style="width: 40%">
+                        <span class="bg-blue blue c-whit rad-6">40%</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="target-prog orange d-flex gap-3 align-center">
+                  <div class="icon d-flex align-center mt-15 hide-mobile">
+                    <i class="fa-solid fa-receipt fa-lg c-orange"></i>
+                  </div>
+                  <div class="details mt-15">
+                    <span class="span-st span-st-c">Projects</span>
+                    <span class="d-block fw-bold">10</span>
+                    <div class="progress p-relative">
+                      <span class="bg-orange orange" style="width: 29%">
+                        <span class="bg-orange orange c-whit rad-6">29%</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="target-prog green d-flex gap-3 align-center">
+                  <div class="icon d-flex align-center mt-15 hide-mobile">
+                    <i class="fa-solid fa-user-tie fa-lg c-green"></i>
+                  </div>
+                  <div class="details mt-15">
+                    <span class="span-st span-st-c">Team</span>
+                    <span class="d-block fw-bold">2</span>
+                    <div class="progress p-relative">
+                      <span class="bg-green green" style="width: 80%">
+                        <span class="bg-green green c-whit rad-6">80%</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <!-- </div> -->
+              </div>
+            </div>
+            <!-- End Yearly Target -->
+            <!-- start Tickets -->
+            <div class="rad-6 bg-whit">
+              <div class="tikets p-15">
+                <div class="int txt-c-mobile">
+                  <h4 class="heading-st">Tickets Statistics</h4>
+                  <span class="span-st span-st-c">EveryThing Aboyt Support Tickets</span>
+                </div>
+                <div class="info-tickets mt-15 d-flex">
+                    <div class="b-x align-cent rad-6">
+                      <div class="p-20">
+                        <i class="fa-solid fa-list fa-xl c-orange"></i>
+                        <h2>2500</h2>
+                        <span class="span-st span-st-c">Total</span>
+                      </div>
+                    </div>
+                    <div class="b-x align-cent rad-6">
+                      <div class="p-20">
+                        <i class="fa-solid fa-spinner fa-xl c-blue"></i>
+                        <h2>500</h2>
+                        <span class="span-st span-st-c">Total</span>
+                      </div>
+                    </div>
+                    <div class="b-x align-cent rad-6">
+                      <div class="p-20">
+                        <i class="fa-solid fa-xmark fa-xl c-red"></i>
+                        <h2>100</h2>
+                        <span class="span-st span-st-c">Total</span>
+                      </div>
+                    </div>
+                    <div class="b-x align-cent rad-6">
+                      <div class="p-20">
+                        <i class="fa-regular fa-square-check fa-xl c-green"></i>
+                        <h2>1900</h2>
+                        <span class="span-st span-st-c">Total</span>
+                      </div>
+                    </div>
+ 
+                  </div>
+                </div>
+              </div>
+            <!-- ENd Tickets -->
+
+            <div class="rad-6 bg-whit">
+              <div class="latest-new p-15">
+                <div class="int txt-c-mobile">
+                  <h4 class="heading-st">Latest News</h4>
+                </div>
+                <div class="info-news  mt-20 d-flex">
+                  <div class="new d-flex between-flex">
+                    <div class="inf d-flex gap-3 align-center">
+                      <img class="rad-6 w-img hide-tablet" src="./imgs/news-01.png" alt="">
+                      <div class="a">
+                      <h6>created Sass Section</h6>
+                      <span class="span-st span-st-c">New SASS Exampels & Tutorials</span>
+                      </div>
+                    </div>
+                    <span class="day bg-eee rad-6 fw-bold">3 Days Ago</span>
+                  </div>
+                  <hr>
+                  <div class="new d-flex between-flex">
+                    <div class="inf d-flex gap-3 align-center">
+                      <img class="rad-6 w-img hide-tablet" src="./imgs/news-02.png" alt="">
+                      <div class="a">
+                      <h6>Change The Design</h6>
+                      <span class="span-st span-st-c">A Brand New Website Design</span>
+                      </div>
+                    </div>
+                    <span class="day bg-eee rad-6 fw-bold">3 Days Ago</span>
+                  </div>
+                  <hr>
+                  <div class="new d-flex between-flex">
+                    <div class="inf d-flex gap-3 align-center">
+                      <img class="rad-6 w-img hide-tablet" src="./imgs/news-03.png" alt="">
+                      <div class="a">
+                      <h6>Team Increased</h6>
+                      <span class="span-st span-st-c">3 Developer Joined The Team</span>
+                      </div>
+                    </div>
+                    <span class="day bg-eee rad-6 fw-bold">7 Days Ago</span>
+                  </div>
+                  <hr>
+                  <div class="new d-flex between-flex">
+                    <div class="inf d-flex gap-3 align-center">
+                      <img class="rad-6 w-img hide-tablet" src="./imgs/news-04.png" alt="">
+                      <div class="a">
+                      <h6>Added Payment Gateway</h6>
+                      <span class="span-st span-st-c">New SASS Exampels & Tutorials</span>
+                      </div>
+                    </div>
+                    <span class="day bg-eee rad-6 fw-bold">9 Days Ago</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rad-6 bg-whit">
+              <div class="latest-tasks p-15">
+                <div class="int txt-c-mobile">
+                  <h4 class="heading-st">Latest Tasks</h4>
+                </div>
+                <div class="info-tasks  mt-20 d-flex">
+                  <div class="task d-flex between-flex">
+                      <div class="b">
+                      <h6>Problem Solving</h6>
+                      <span class="span-st span-st-c">Solving three New Examples</span>
+                      </div>
+                      <i class="fa-solid fa-trash-can"></i>
+                  </div>
+                  <hr>
+                  <div class="task d-flex between-flex">
+                    <div class="b">
+                    <h6>finfish project</h6>
+                    <span class="span-st span-st-c">continue cloning amazon application</span>
+                    </div>
+                    <i class="fa-solid fa-trash-can"></i>
+                </div>
+                  <hr>
+                  <div class="task d-flex between-flex">
+                    <div class="b">
+                    <h6>read article</h6>
+                    <span class="span-st span-st-c">Solving three New Examples</span>
+                    </div>
+                    <i class="fa-solid fa-trash-can"></i>
+                </div>
+                  <hr>
+                  <div class="task d-flex between-flex">
+                    <div class="b">
+                    <h6>Problem Solving</h6>
+                    <span class="span-st">Solving three New Examples</span>
+                    </div>
+                    <i class="fa-solid fa-trash-can"></i>
+                </div>
+                <hr>
+                <div class="task d-flex between-flex">
+                  <div class="b">
+                  <h6>Problem Solving</h6>
+                  <span class="span-st span-st-c">Solving three New Examples</span>
+                  </div>
+                  <i class="fa-solid fa-trash-can"></i>
+              </div>
+               
+                </div>
+              </div>
+            </div>
+            <div class="rad-6 bg-whit">tesst</div>
+            <div class="rad-6 bg-whit">tesst</div>
+            <div class="rad-6 bg-whit">tesst</div>
+            <div class="rad-6 bg-whit">tesst</div>
+            <div class="rad-6 bg-whit">tesst</div>
+            <div class="rad-6 bg-whit">tesst</div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="/js/all.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
