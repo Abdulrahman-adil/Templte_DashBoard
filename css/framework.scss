@@ -7,11 +7,10 @@
 .mt-15{margin-top: 15px;}
 .mt-20{margin-top: 20px;}
 .mb-15{margin-bottom: 15px;}
-
 .rad-6{ border-radius: 6px;}
-
+.rad-50{ border-radius: 50%;}
 .p-relative{ position: relative;}
-
+.z-index{z-index: 333;}
 .align-cent{text-align: center;}
 .w-full{width: 100%;}
 .heading-st{font-size: 18px;font-weight: bold; }
@@ -21,7 +20,9 @@
 .flow-hiding{overflow: hidden;}
 .line-h{line-height: 0;}
 .d-block{display: block;}
-.w-img{width: 100px;}
+.w-img-100{width: 100px;}
+.w-img-50{width: 50px;}
+.w-img-25{width:25px;}
 .block-mobile{
 display: block !important;
 }
@@ -43,9 +44,20 @@ display: block !important;
 .bg-eee{background-color: #eee;}
 .bg-whit{background-color: var(--bs-white);}
 //background
+//social Colors
+.bg-github{background-color: #34465D}
+.bg-github-over{background-color: #34465d80}
+.bg-facbook{background-color:#1877F2}
+.bg-facbook-over{background-color:#1877f233}
+.bg-instgram{background-color:#EE1D51}
+.bg-instgram-over{background-color:#ed1c5033}
+.bg-linkedin{background-color:#0A66C2}
+.bg-linkidin-over{background-color:rgba(10,102, 194, 0.2)}
+//social Colors
 
 // colors
 
+hr{margin: 10px 0 !important;color: #ccc!important;}
 // Start global
 ul{list-style: none;}
 a{
@@ -91,6 +103,13 @@ a{
 .align-center{
     align-items: center;
     justify-content: center;
+}
+.dir-column{
+    flex-direction: column;
+}
+.grid-col{
+    grid-column: 1/4;
+ 
 }
 // End componantes
 

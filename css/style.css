@@ -423,4 +423,199 @@ body {
   text-decoration: line-through;
   color: #c4c4c4;
 }
+
+.dashBord .main-content .cont .boxes .top-search .search-item span {
+  padding: 1px 10px;
+  font-size: 13px;
+}
+
+.dashBord .main-content .cont .boxes .latest-uploads .latest-file span.bg-eee {
+  padding: 1px 10px;
+}
+
+.dashBord .main-content .cont .boxes .last-proj-prog .info-proj {
+  position: relative;
+}
+
+.dashBord .main-content .cont .boxes .last-proj-prog .info-proj i {
+  position: relative;
+}
+
+.dashBord .main-content .cont .boxes .last-proj-prog .info-proj h6::before {
+  position: absolute;
+  content: '';
+  border: 2px solid white;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  left: 2px;
+  z-index: 333;
+  margin-top: 2px;
+}
+
+.dashBord .main-content .cont .boxes .last-proj-prog .info-proj::after {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 174px;
+  background-color: var(--bs-blue);
+  left: 9px;
+}
+
+.dashBord .main-content .cont .boxes .last-proj-prog .img-project {
+  width: 100%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-top: 100px;
+}
+
+.dashBord .main-content .cont .boxes .last-proj-prog .img-project img {
+  opacity: 0.4;
+  width: 120px;
+}
+
+.dashBord .main-content .cont .boxes .reminders-lists {
+  margin-left: 50px;
+}
+
+.dashBord .main-content .cont .boxes .reminders-lists .list {
+  position: relative;
+}
+
+.dashBord .main-content .cont .boxes .reminders-lists .list h6 {
+  margin-bottom: 15px;
+}
+
+.dashBord .main-content .cont .boxes .reminders-lists .list span:nth-of-type(2):after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 45px;
+  top: 0;
+  left: -21px;
+}
+
+.dashBord .main-content .cont .boxes .reminders-lists .list span:nth-of-type(2).blue::after {
+  background-color: var(--bs-blue);
+}
+
+.dashBord .main-content .cont .boxes .reminders-lists .list span:nth-of-type(2).green::after {
+  background-color: var(--bs-green);
+}
+
+.dashBord .main-content .cont .boxes .reminders-lists .list span:nth-of-type(2).orange::after {
+  background-color: var(--bs-orange);
+}
+
+.dashBord .main-content .cont .boxes .reminders-lists .list span:nth-of-type(2).red::after {
+  background-color: var(--bs-red);
+}
+
+.dashBord .main-content .cont .boxes .reminders-lists .list span:last-of-type::before {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  top: 16px;
+  left: -50px;
+}
+
+.dashBord .main-content .cont .boxes .reminders-lists .list span:last-of-type.blue::before {
+  background-color: var(--bs-blue);
+}
+
+.dashBord .main-content .cont .boxes .reminders-lists .list span:last-of-type.green::before {
+  background-color: var(--bs-green);
+}
+
+.dashBord .main-content .cont .boxes .reminders-lists .list span:last-of-type.orange::before {
+  background-color: var(--bs-orange);
+}
+
+.dashBord .main-content .cont .boxes .reminders-lists .list span:last-of-type.red::before {
+  background-color: var(--bs-red);
+}
+
+.dashBord .main-content .cont .boxes .latest-post .user-n img {
+  width: 40px;
+  height: 40px;
+}
+
+.dashBord .main-content .cont .boxes .latest-post .user-n .last-seen h2 {
+  font-size: 15px;
+}
+
+.dashBord .main-content .cont .boxes .latest-post p {
+  font-size: 15px;
+}
+
+.dashBord .main-content .cont .boxes .latest-post .opinions {
+  font-size: 12px;
+}
+
+.dashBord .main-content .cont .boxes .socials .follower {
+  margin-bottom: 7px;
+}
+
+.dashBord .main-content .cont .boxes .socials .follower .icon {
+  padding: 13px;
+  color: white;
+}
+
+.dashBord .main-content .cont .boxes .socials .follower span:nth-of-type(1) {
+  -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+  font-size: 14px;
+}
+
+.dashBord .main-content .cont .boxes .socials .follower span:nth-of-type(2) {
+  padding: 0px 8px;
+  border-radius: 5px;
+  color: #fff;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.dashBord .main-content .cont .last-project .responsiv-table {
+  overflow: auto;
+}
+
+.dashBord .main-content .cont .last-project .responsiv-table table {
+  width: 100%;
+  padding: 8px;
+  font-size: 13px;
+  min-width: 1000px;
+  border-spacing: 0;
+}
+
+.dashBord .main-content .cont .last-project .responsiv-table table thead td {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+.dashBord .main-content .cont .last-project .responsiv-table table tbody tr:hover td {
+  background-color: #faf7f7;
+}
+
+.dashBord .main-content .cont .last-project .responsiv-table table td, .dashBord .main-content .cont .last-project .responsiv-table table th {
+  border: 1px solid #eee;
+  text-align: left;
+  padding: 8px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.dashBord .main-content .cont .last-project .responsiv-table table td img {
+  margin-right: -15px;
+}
+
+.dashBord .main-content .cont .last-project .responsiv-table table td span {
+  padding: 4px 10px;
+  color: var(--bs-white);
+}
 /*# sourceMappingURL=style.css.map */
